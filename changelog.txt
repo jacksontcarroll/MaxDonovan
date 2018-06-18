@@ -1,0 +1,1 @@
+0.04 - 11/11/17 - Added JQuery scroll-up animation, worked on fixing the down-arrow page scrolling

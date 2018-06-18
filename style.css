@@ -1,0 +1,135 @@
+@font-face {
+	font-family: Primus;
+	src: url("src/Primus.otf");
+}
+
+body {
+	font-size: 1em;
+	font-family: Primus, sans-serif;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+}
+
+#subscribe {
+	width: 100%;
+	background: #5190a5;
+	height: 5vh;
+}
+
+#submsg {
+	display: table;
+	margin: auto;
+	width: 95%;
+	text-align: center;
+	line-height: 5vh;
+	vertical-align: middle;
+	font-size: 2.5vh;
+	transition: color .15s ease-out;
+}
+
+#submsg:hover {
+	cursor: pointer;
+	color: #115065;
+}
+
+#submsg a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#x {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 5vh;
+	height: 5vh;
+	line-height: 5vh;
+	vertical-align: middle;
+	text-align: center;
+	background: #3a6877;
+	font-size: 2vh;
+	color: #FFFFFF;
+	transition: color .15s ease-out;
+}
+
+#x:hover {
+	color: #e51262;
+	cursor: pointer;
+}
+
+#navpane {
+	position: absolute;
+	display: inline;
+	width: 100%;
+	margin-top: .5%;
+}
+
+#navpane span {
+	padding: .5%;
+	margin: .5%;
+	display: inline-block;
+	float: right;
+	font-size: 1.25em;
+	margin-top: .75%;
+	font-weight: bold;
+}
+
+#navpane #donate {
+	background: #5190a5;
+	margin-right: 4%;
+}
+
+#navpane span a {
+	color: #FFF;
+	text-decoration: none;
+	transition: color .15s ease-out;
+}
+
+#navpane span a:hover {
+	color: #c772ff;
+}
+
+#navpane #donate a:hover {
+	color: #ff2d7d;
+}
+
+#picture {
+	width: 100%;
+	height: 100vh;
+	background: url("src/bg2.png");
+	background-size: 100%;
+}
+
+#arrowContainer {
+	width: 100%;
+	height: 7vh;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+}
+
+#arrow {
+	width: 70%;
+	height: 7vh;
+	border: 1px solid red;
+	background: url("src/arrow.png");
+}
+
+#content {
+	display: block;
+	width: 76%;
+	margin: auto;
+	background: #FFFFFF;
+	color: #064459;
+	padding: 2%;
+}
+
+#content p {
+	display: table;
+	margin: auto;
+	font-family: "Verdana";
+	font-size: 2em;
+}
